@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Guess.css'; //  Import CSS here
+import './Guess.css';
 
 const Guess = () => {
     const [num, setNum] = useState<string>(" ");
