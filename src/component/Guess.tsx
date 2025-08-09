@@ -7,12 +7,12 @@ const Guess = () => {
     const myNum: number = 85;
 
     const handleNumber = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setNum(e.target.value); //Already string
+        setNum(e.target.value); 
 
     };
 
     const handleCheck = (): void => {
-        const guess = Number(num); // convert string to number
+        const guess = Number(num); 
 
         if (guess > myNum) {
             setShow('This number is too high');
